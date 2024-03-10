@@ -5,10 +5,10 @@ void ShellSort(int* arr, int length)
 {
 	int i = 0, j = 0;
 
-	//Íâ²ãÑ­»·--²»¶ÏËõ¶ÌÔöÁ¿
+	//å¤–å¾ªçŽ¯æŽ§åˆ¶æ¬¡æ•°
 	for (int interval = length / 2; interval > 0; interval =interval / 2)
 	{
-		for (i=interval;i<length;i++)
+		for (i=interval;i<length;i++)//intervalè¡¨ç¤ºé—´è·
 		{
 			int target = arr[i];
 			int j = i - interval;
